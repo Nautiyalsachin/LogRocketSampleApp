@@ -1,0 +1,20 @@
+PODS:
+  - LogRocket (0.21.0):
+    - SwiftProtobuf
+  - SwiftProtobuf (1.18.0)
+
+DEPENDENCIES:
+  - LogRocket
+
+SPEC REPOS:
+  trunk:
+    - LogRocket
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  LogRocket: 91138762a1ccf5ce923e980cd7458046914411a6
+  SwiftProtobuf: c3c12645230d9b09c72267e0de89468c5543bd86
+
+PODFILE CHECKSUM: 14ff4a3f21701ab479520e1fef6d794f9d008863
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module Pods_LogRocketSampleApp_LogRocketSampleAppUITests {
+  umbrella header "Pods-LogRocketSampleApp-LogRocketSampleAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

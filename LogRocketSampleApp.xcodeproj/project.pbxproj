@@ -16,6 +16,13 @@
 		0CE094A9278585F000063D8B /* LogRocketSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094A8278585F000063D8B /* LogRocketSampleAppTests.swift */; };
 		0CE094B3278585F000063D8B /* LogRocketSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094B2278585F000063D8B /* LogRocketSampleAppUITests.swift */; };
 		0CE094B5278585F000063D8B /* LogRocketSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094B4278585F000063D8B /* LogRocketSampleAppUITestsLaunchTests.swift */; };
+		0CE094C227858CB800063D8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094C127858CB800063D8B /* SignUpViewController.swift */; };
+		0CE094C427858CC700063D8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094C327858CC700063D8B /* LoginViewController.swift */; };
+		0CE094C627858CD700063D8B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094C527858CD700063D8B /* WebViewController.swift */; };
+		0CE094C82785ABD700063D8B /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE094C72785ABD700063D8B /* NormalViewController.swift */; };
+		52036F5E6C61764116C24835 /* Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9E521F42ADAEA7A483EBC /* Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework */; };
+		89D025F4388D0A817D37FC6C /* Pods_LogRocketSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CC9D9E30B9ABE917ECAD80 /* Pods_LogRocketSampleAppTests.framework */; };
+		D7755A90CE0DF628EACEC713 /* Pods_LogRocketSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9001E20560AA624140C272CA /* Pods_LogRocketSampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,19 @@
 		0CE094AE278585F000063D8B /* LogRocketSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogRocketSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE094B2278585F000063D8B /* LogRocketSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRocketSampleAppUITests.swift; sourceTree = "<group>"; };
 		0CE094B4278585F000063D8B /* LogRocketSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRocketSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CE094C127858CB800063D8B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0CE094C327858CC700063D8B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0CE094C527858CD700063D8B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0CE094C72785ABD700063D8B /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		0FCC385C9C298F9CB34E1BC3 /* Pods-LogRocketSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleAppTests/Pods-LogRocketSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		131B211A9B362F049D5FFC73 /* Pods-LogRocketSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleApp/Pods-LogRocketSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		14CC9D9E30B9ABE917ECAD80 /* Pods_LogRocketSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogRocketSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438FA7D8ED1D433958B86C71 /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleApp-LogRocketSampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleApp-LogRocketSampleAppUITests/Pods-LogRocketSampleApp-LogRocketSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D13CDEC257DAB2ABC1C54E1 /* Pods-LogRocketSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleApp.release.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleApp/Pods-LogRocketSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		9001E20560AA624140C272CA /* Pods_LogRocketSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogRocketSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD9E521F42ADAEA7A483EBC /* Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7002F41429A5CB53CF92FA /* Pods-LogRocketSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleAppTests/Pods-LogRocketSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D11EE8AFBCAF9B09FC9D026A /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogRocketSampleApp-LogRocketSampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LogRocketSampleApp-LogRocketSampleAppUITests/Pods-LogRocketSampleApp-LogRocketSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7755A90CE0DF628EACEC713 /* Pods_LogRocketSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D025F4388D0A817D37FC6C /* Pods_LogRocketSampleAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52036F5E6C61764116C24835 /* Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				0CE094A7278585F000063D8B /* LogRocketSampleAppTests */,
 				0CE094B1278585F000063D8B /* LogRocketSampleAppUITests */,
 				0CE0948F278585ED00063D8B /* Products */,
+				F76700D3EAA226F8BC3D1288 /* Pods */,
+				5F687E683ACF4CFC40BA7285 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +131,10 @@
 				0CE0949A278585EF00063D8B /* Assets.xcassets */,
 				0CE0949C278585EF00063D8B /* LaunchScreen.storyboard */,
 				0CE0949F278585EF00063D8B /* Info.plist */,
+				0CE094C127858CB800063D8B /* SignUpViewController.swift */,
+				0CE094C327858CC700063D8B /* LoginViewController.swift */,
+				0CE094C527858CD700063D8B /* WebViewController.swift */,
+				0CE094C72785ABD700063D8B /* NormalViewController.swift */,
 			);
 			path = LogRocketSampleApp;
 			sourceTree = "<group>";
@@ -127,6 +156,29 @@
 			path = LogRocketSampleAppUITests;
 			sourceTree = "<group>";
 		};
+		5F687E683ACF4CFC40BA7285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9001E20560AA624140C272CA /* Pods_LogRocketSampleApp.framework */,
+				9DD9E521F42ADAEA7A483EBC /* Pods_LogRocketSampleApp_LogRocketSampleAppUITests.framework */,
+				14CC9D9E30B9ABE917ECAD80 /* Pods_LogRocketSampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F76700D3EAA226F8BC3D1288 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				131B211A9B362F049D5FFC73 /* Pods-LogRocketSampleApp.debug.xcconfig */,
+				6D13CDEC257DAB2ABC1C54E1 /* Pods-LogRocketSampleApp.release.xcconfig */,
+				438FA7D8ED1D433958B86C71 /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.debug.xcconfig */,
+				D11EE8AFBCAF9B09FC9D026A /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.release.xcconfig */,
+				0FCC385C9C298F9CB34E1BC3 /* Pods-LogRocketSampleAppTests.debug.xcconfig */,
+				CE7002F41429A5CB53CF92FA /* Pods-LogRocketSampleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE094B8278585F000063D8B /* Build configuration list for PBXNativeTarget "LogRocketSampleApp" */;
 			buildPhases = (
+				8AAECD1D6F9E06B06080D0E1 /* [CP] Check Pods Manifest.lock */,
 				0CE0948A278585ED00063D8B /* Sources */,
 				0CE0948B278585ED00063D8B /* Frameworks */,
 				0CE0948C278585ED00063D8B /* Resources */,
+				0510036AF00388F7C5FAF241 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE094BB278585F000063D8B /* Build configuration list for PBXNativeTarget "LogRocketSampleAppTests" */;
 			buildPhases = (
+				B20ABEA7DC529E6B85D813EC /* [CP] Check Pods Manifest.lock */,
 				0CE094A0278585F000063D8B /* Sources */,
 				0CE094A1278585F000063D8B /* Frameworks */,
 				0CE094A2278585F000063D8B /* Resources */,
@@ -169,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE094BE278585F000063D8B /* Build configuration list for PBXNativeTarget "LogRocketSampleAppUITests" */;
 			buildPhases = (
+				845C8333D6EE9A7D6A3A0206 /* [CP] Check Pods Manifest.lock */,
 				0CE094AA278585F000063D8B /* Sources */,
 				0CE094AB278585F000063D8B /* Frameworks */,
 				0CE094AC278585F000063D8B /* Resources */,
+				E6E768D2E69F065451C3AF67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +310,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0510036AF00388F7C5FAF241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp/Pods-LogRocketSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp/Pods-LogRocketSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp/Pods-LogRocketSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845C8333D6EE9A7D6A3A0206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogRocketSampleApp-LogRocketSampleAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAECD1D6F9E06B06080D0E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogRocketSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20ABEA7DC529E6B85D813EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogRocketSampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E768D2E69F065451C3AF67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp-LogRocketSampleAppUITests/Pods-LogRocketSampleApp-LogRocketSampleAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp-LogRocketSampleAppUITests/Pods-LogRocketSampleApp-LogRocketSampleAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogRocketSampleApp-LogRocketSampleAppUITests/Pods-LogRocketSampleApp-LogRocketSampleAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CE0948A278585ED00063D8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CE09496278585ED00063D8B /* ViewController.swift in Sources */,
+				0CE094C627858CD700063D8B /* WebViewController.swift in Sources */,
 				0CE09492278585ED00063D8B /* AppDelegate.swift in Sources */,
+				0CE094C227858CB800063D8B /* SignUpViewController.swift in Sources */,
+				0CE094C427858CC700063D8B /* LoginViewController.swift in Sources */,
+				0CE094C82785ABD700063D8B /* NormalViewController.swift in Sources */,
 				0CE09494278585ED00063D8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +598,7 @@
 		};
 		0CE094B9278585F000063D8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131B211A9B362F049D5FFC73 /* Pods-LogRocketSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +612,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +628,7 @@
 		};
 		0CE094BA278585F000063D8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D13CDEC257DAB2ABC1C54E1 /* Pods-LogRocketSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +642,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +658,7 @@
 		};
 		0CE094BC278585F000063D8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCC385C9C298F9CB34E1BC3 /* Pods-LogRocketSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +684,7 @@
 		};
 		0CE094BD278585F000063D8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7002F41429A5CB53CF92FA /* Pods-LogRocketSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +710,7 @@
 		};
 		0CE094BF278585F000063D8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438FA7D8ED1D433958B86C71 /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +734,7 @@
 		};
 		0CE094C0278585F000063D8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11EE8AFBCAF9B09FC9D026A /* Pods-LogRocketSampleApp-LogRocketSampleAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
